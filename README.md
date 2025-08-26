@@ -1,33 +1,41 @@
 # AI Inventory Vision
 
-AI-powered visual inventory management system for B2B restaurant operations. Uses computer vision to automatically track stock levels, monitor portions, and reduce manual inventory labor.
+On-edge learning system for real-time inventory classification and quantification. Hybrid AI approach combining multiple vision models with human-in-the-loop annotation for continuous improvement.
 
-## Description
+## Technical Architecture
 
-Building on existing camera-based classification technology, this system provides:
-- Real-time visual item classification and counting
-- Automated stock level monitoring
-- Portion control analysis
-- Labor cost reduction through automation
-- B2B focus with potential B2C expansion
+### Core Vision Pipeline
+- **YOLO**: Real-time object detection and localization for inventory items
+- **ResNet/CNN**: Deep classification networks for fine-grained item recognition
+- **Gemini**: Multimodal AI for complex scene understanding and contextual analysis
+- **Human Annotation**: Active learning loop with human validators for edge cases and model improvement
+
+### On-Edge Learning Capabilities
+- **Adaptive Classification**: Models continuously learn new inventory items without cloud dependency
+- **Self-Improving Accuracy**: Human annotations feed back into training pipeline
+- **Multi-Model Ensemble**: Combines strengths of YOLO's speed, ResNet's accuracy, and Gemini's reasoning
+- **Edge Deployment**: Full inference and learning happens on-device for privacy and latency
 
 ## Key Features
 
-- **Visual Stock Tracking**: Automatically identify and count inventory items using existing cameras
-- **Quantity Estimation**: AI-powered algorithms to estimate stock levels
-- **Portion Control**: Monitor and analyze food portioning for consistency
-- **Multi-Camera Support**: Works with any camera setup
-- **Real-time Analytics**: Instant inventory insights and alerts
+- **Hybrid AI Stack**: YOLO + ResNet/CNN + Gemini working in concert
+- **Active Learning Loop**: Human annotators improve model performance over time
+- **On-Edge Processing**: No cloud dependency for core operations
+- **Real-time Classification**: Instant item identification and quantity estimation
+- **Continuous Learning**: Models adapt to new products and packaging without retraining from scratch
 
-## Target Market
+## Use Cases
 
-- **Primary (B2B)**: Restaurants, cafes, commercial kitchens
-- **Secondary (B2C)**: Future expansion to home users, small businesses
+### Restaurant Inventory (B2B)
+- Automated stock counts with visual verification
+- Portion size monitoring and consistency tracking
+- Waste reduction through predictive analytics
+- Labor cost savings on manual inventory tasks
 
-## Tech Foundation
-
-Builds on proven Python-based computer vision classification server with self-learning capabilities.
+### Future Expansion (B2C)
+- Home pantry management
+- Small business inventory tracking
 
 ## Tags
 
-`computer-vision` `inventory-management` `restaurant-tech` `b2b-saas` `ai` `machine-learning` `food-service` `automation` `portion-control` `stock-tracking` `python` `real-time-analytics` `cost-reduction`
+`yolo` `resnet` `cnn` `gemini-ai` `edge-computing` `on-device-learning` `active-learning` `human-in-the-loop` `computer-vision` `inventory-management` `restaurant-tech` `b2b-saas` `object-detection` `multimodal-ai` `ensemble-learning` `continuous-learning` `python` `real-time-inference`
