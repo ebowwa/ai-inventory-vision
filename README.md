@@ -2,6 +2,10 @@
 
 On-edge learning system for real-time inventory classification and quantification. Hybrid AI approach combining multiple vision models with human-in-the-loop annotation for continuous improvement.
 
+## Background
+
+This project builds upon the initial work from [EdaxShifu](https://github.com/dako2/edaxshifu), developed during the hackathon at [https://partiful.com/e/hUU7NyM8EjHLxjMuJROs](https://partiful.com/e/hUU7NyM8EjHLxjMuJROs). The original system demonstrated self-classifying/learning capabilities with camera inputs, which we're now extending for commercial inventory management applications.
+
 ## Technical Architecture
 
 ### Core Vision Pipeline
